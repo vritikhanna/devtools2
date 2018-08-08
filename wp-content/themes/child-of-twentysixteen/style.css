@@ -1,0 +1,28 @@
+ /*
+ Theme name: Vriti's Child Theme.
+ Description:This is a child theme developed for Dev tools
+ Author: Vriti Theme
+ Version:1.0
+ Template: twentysixteen
+ */
+
+ @import url('../twentysixteen/style.css');
+@import url('https://fonts.googleapis.com/css?family=Lato|Modern+Antiqua');
+
+/*font-family: 'Modern Antiqua', cursive;
+font-family: 'Lato', sans-serif; */
+
+body, button, input, select, textarea {
+	font-family: 'Lato', sans-serif; 
+}
+    
+
+.entry-title {
+    
+    }
+
+.site-branding .site-title a:hover, .site-branding .site-title a:focus {
+    color: #cc003f;
+}
+.main-navigation a:hover, .main-navigation a:focus {
+    color: #cc003f;

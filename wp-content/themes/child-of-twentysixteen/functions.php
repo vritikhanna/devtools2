@@ -1,4 +1,10 @@
 <?php
+function wpb_add_google_fonts () {
+
+wp_enqueue_style( 'wpb-google-fonts',"
+	https://fonts.googleapis.com
+	/css?family=Lato|Modern+Antiqua", false );
+}
 function my_theme_enqueue_styles() {
 
 	$parent_style = 'twentysixteen-style'; //This is 'twenty-sixteen-style' for the Twenty Sixteen theme.
